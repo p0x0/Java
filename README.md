@@ -1,1 +1,1 @@
-# Java
+# Java задачи с IT School Samsung
