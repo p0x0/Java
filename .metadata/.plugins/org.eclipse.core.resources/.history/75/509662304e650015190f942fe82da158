@@ -8,11 +8,17 @@ public class JpoweX359X {
 	public static void main(String[] args) {
 		long x = in.nextInt();
 		long n = in.nextInt();
+		long n1 = 0;
+		if (n < 0) {
+			n1 = n * (-1);
+		} else {
+			n1 = n;
+		}
 		int i;
 		long s;
 		i = 0;
 		s = 0;
-		while (i < Math.abs(n)) {
+		while (i < n1) {
 			s = s + x;
 			i++;
 
