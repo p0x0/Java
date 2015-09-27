@@ -6,6 +6,7 @@ public class Max {
 	public static Scanner in = new Scanner(System.in);
 	public static PrintStream out = new PrintStream(System.out);
 	public static void main(String[] args){
+		//Lory's commit
 		int a,b,c,max;
 		a= in.nextInt();
 		b= in.nextInt();
